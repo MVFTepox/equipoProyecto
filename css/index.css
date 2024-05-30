@@ -1,0 +1,274 @@
+
+/* RGB SUPERIOR*/
+
+.fondo{
+  background-color: #012e65;
+  }
+
+.degradado_superior{
+  width: 85%;
+  height: 5px;
+  background: linear-gradient(to left, #1403ef, #ff081a);
+  }
+
+/* BARRA SUPERIOR  */
+
+.opciones_superiores{
+  color: white;
+  font-size: small;
+  font-family: 'Mulish', sans-serif;
+  height: 25px;
+  }
+
+.quitar_sub{
+  text-decoration: none;
+  color: white;
+  }
+
+.vdots{
+  height: 100%;
+  width: auto;
+  }
+
+.derecha{
+  text-align: right;
+  }
+
+.centro{
+  text-align: center;
+  }
+
+.col-1 {
+  flex: 0 0 auto;
+  width: 4%;
+  }
+
+@media (min-width: 992px) {
+    .door {
+      display: none;
+    }
+}
+
+/* BARRA CON LOGO */
+
+#barraSup {
+    background-color: rgb(2, 71, 149);
+    width: 100%;
+    font-family: 'Mulish', sans-serif;
+  }
+
+#logoTim {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+.btn-group-vertical>.btn, .btn-group>.btn {
+    position: initial;
+    flex: 1 1 auto;
+}
+
+/* NAVBAR */
+
+
+.navbar-nav .btn-group {
+    margin-left: 10px;
+  }
+
+.navbar-nav .dropdown-menu {
+    background-color: #404b57;
+    border: none;
+  }
+
+.navbar-nav .dropdown-item {
+    color: #fff;
+  }
+
+.navbar-nav .dropdown-item:hover {
+    background-color: #495057;
+  }
+
+.navbar-brand img {
+    height: 40px;
+  }
+
+/* OFFCANVAS */
+
+.offcanvas-header, .offcanvas-body {
+    background-color: #1e59ee;
+  }
+
+.offcanvas-title, .offcanvas-body .nav-link {
+    color: #fff;
+  }
+
+.offcanvas-body .nav-link:hover {
+    background-color: rgb(79, 79, 90);
+  }
+
+.dropdown-menu {
+    border-bottom: white;
+  }
+
+.CodQR{
+    width: 100px;
+    height: auto;
+  }
+
+/* CUERPO */
+
+.imgDefondo{
+    background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px ;
+  font-family: "Mulish", sans-serif;
+  }
+
+.jwlogo{
+  width: 20%;
+  height: auto;
+  }
+
+.textoDePromocion{
+  margin-left: 0%;
+  font-size: 100%;
+  }
+
+.botonPer-container{
+  color:#ff4d4d;
+  font-size: 50%;
+  transform: skew(-30deg);
+  transition: transform 1s linear;
+  }
+
+.botonPer-container:hover {
+  transform: skew(0deg);
+  }
+
+.botonPer {
+  width: 30%;
+  margin-left: 5%;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(to right,red, purple,blue);
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  transition: background 2s ease;
+  cursor: pointer;
+  }
+
+.botonPer:hover {
+  background: linear-gradient(to right, blue, purple,red);
+  }
+
+.new-price, .old-price{
+  font-size: 30px;
+  padding: 0px;
+  margin: 0%;
+  }
+
+.texto1{
+  font-size: 30px;
+  padding: 0%;
+  margin: 0%;
+  }
+
+.textoChi{
+  font-family: 10px;
+  }
+
+.old-price strong {
+  width: 200px;
+  text-decoration: line-through;
+  color: #ff4d4d;
+  font-size: 100%;
+  }
+
+  .texBoton{
+  font-size: 90%;
+  }
+
+.icono{
+  margin-left: 50px;
+  margin-top: 100px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  }
+
+.iconoFOrm{
+  height: 100%;
+  padding: 10px;
+  background: linear-gradient(to left, blue, purple,red);
+  border-radius: 90%;
+  }
+
+.iconoFOrm:hover{
+  background: linear-gradient(to left, red, purple,blue);
+  }
+
+.lineadeltexto{
+  background-color: #ff4d4d;
+  width: auto;
+  height: 1%;
+  border: linear-gradient(blue, purple,red);
+  }
+
+.linearoja{
+  color:#ff4d4d;
+  }
+
+.lineablanca{
+  width: 100%;
+  border: black solid 1px;
+  }
+
+/* PIE DE PAGINA */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #0f3e6d;
+  color: white;
+  padding: 1% 0% ;
+  flex-wrap: wrap;
+  }
+
+.footer div {
+  flex: 1;
+  text-align: center;
+  min-width: 300px;
+  max-width: 60px;
+  }
+
+.footer div p {
+  margin: 1px 0;
+  }
+
+.footer .highlight {
+  font-weight: bold;
+  }
+
+.footer .highlight-strong {
+  font-weight: bolder;
+  }
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  }
+
+.row{
+  --bs-gutter-x:0rem;
+  }
+
+.dropdown-menu {
+  --bs-dropdown-bg: #404b57;
+  --bs-dropdown-link-color: white;
+  --bs-dropdown-link-hover-bg: gray;
+  }

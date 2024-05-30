@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,100,0,0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="./css/index.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+  </style>
+  <title>TIM</title>
+</head>
+
+<body>
+
+<!-- RGB SUPERIOR -->
+
+  <container-fluid>
+    <div class="fondo">
+        <div class="degradado_superior">
+        </div>
+    </div>
+</container-fluid>
+
+<!-- BARRA SUPERIOR -->
+
+    <container-fluid>
+        <div>
+            <div class="row fondo " id="menu" >
+                <div class="col d-none d-lg-block"></div>
+                <div class="col-1 d-lg-none"></div>
+                <div class="col-3 opciones_superiores d-none d-lg-block">
+                    <p>Bem-vindo a Tim Live, agente autorizado</p>
+                </div>
+                <div class="col-4 opciones_superiores d-lg-none">
+                    <p>Bem-vindo a Tim Live, agente autorizado</p>
+                </div>
+                <div class="col"></div>
+                <div class="col opciones_superiores derecha d-none d-lg-block">
+                    <a href="#" class="quitar_sub">Para Você</a>
+                </div>
+                <div class="col opciones_superiores centro  d-none d-lg-block">
+                    <a href="#" class="quitar_sub ">Para Empresas</a>
+                </div>
+                <div class="col opciones_superiores centro d-none d-lg-block">
+                    <a href="#" class="quitar_sub">Para Operadoras</a>
+                </div>
+                <div class="col opciones_superiores d-none d-lg-block">
+                    <a href="#" class="quitar_sub">Loja Online</a>
+                </div>
+                <div class="col"></div>
+                <div class="col-1 btn door">
+                    <button class="btn text-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="material-symbols-outlined">
+                        more_vert
+                        </span>
+                    </button>
+                    <ul class="dropdown-menu " id="">
+                        <li><button class="dropdown-item" type="button">Para Você</button></li>
+                        <li><button class="dropdown-item" type="button">Para Empresas</button></li>
+                        <li><button class="dropdown-item" type="button">Para Operadoras</button></li>
+                        <li><button class="dropdown-item" type="button">loja Online</button></li>
+                    </ul>
+                </div>
+                <div class="col-1 d-lg-none"></div>
+            </div>
+        </div>
+    </container-fluid>
+
+  <!-- BARRA CON LOGO-NAVBAR -->
+
+  <div id="barraSup" class="row g-0 text-end align-items-center p-2">
+    <nav class="navbar navbar-expand-lg by-body-tertiary">
+      <div class="container-fluid">
+        <div class="col-5 text-start">
+          <div class="row">
+            <div class="col-3"></div>
+            <div class="col-3">
+              <img id="logoTim" src="./img/Logo_TIM_(2016).png" alt="Logo">
+            </div>
+          </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-start" id="navbarNavAltMarkup">
+          <div id="btnGr" class="navbar-nav">
+
+            <div class="btn-group">
+              <button class="btn text-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span id="btn" class="align-middle">
+                  Planos
+                  <i class="material-icons align-middle">expand_more</i>
+                </span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><button class="dropdown-item" type="button">Promozioni</button></li>
+                <li><button class="dropdown-item" type="button">TIM controle</button></li>
+                <li><button class="dropdown-item" type="button">Famiglia</button></li>
+              </ul>
+            </div>
+
+            <div class="btn-group">
+              <button class="btn text-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span id="btn" class="align-middle">
+                  Internet
+                  <i class="material-icons align-middle">expand_more</i>
+                </span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><button class="dropdown-item" type="button">Adsl</button></li>
+                <li><button class="dropdown-item" type="button">FWA</button></li>
+                <li><button class="dropdown-item" type="button">Internet Fibra</button></li>
+              </ul>
+            </div>
+
+            <div class="btn-group">
+              <button class="btn text-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span id="btn" class="align-middle">
+                  Recarga
+                  <i class="material-icons align-middle">expand_more</i>
+                </span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><button class="dropdown-item" type="button">Ricarica Automatica</button></li>
+                <li><button class="dropdown-item" type="button">TIM Tourist</button></li>
+                <li><button class="dropdown-item" type="button">5G</button></li>
+              </ul>
+            </div>
+
+            <div class="btn-group">
+              <button class="btn text-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span id="btn" class="align-middle">
+                  Serviços
+                  <i class="material-icons align-middle">expand_more</i>
+                </span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><button class="dropdown-item" type="button">Telefonia Fissa e Mobile</button></li>
+                <li><button class="dropdown-item" type="button">Internet Fibra</button></li>
+                <li><button class="dropdown-item" type="button">Intrattenimiento</button></li>
+              </ul>
+            </div>
+
+            <div class="btn-group">
+              <button class="btn text-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span id="btn" class="align-middle">
+                  Atendimiento
+                  <i class="material-icons align-middle">expand_more</i>
+                </span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><button class="dropdown-item" type="button">APP MENU TIM</button></li>
+                <li><button class="dropdown-item" type="button">
+                    <div class="CodQR"><img id="QRTim" src="./img/Codigo.png" alt="QRtim" class="CodQR"></div>
+                  </button></li>
+              </ul>
+
+            </div>
+
+            <div class="btn-group">
+              <button id="btn" class="btn text-light" type="button">
+                <span class="material-symbols-outlined align-middle">
+                  phone_in_talk
+                </span>
+                Me ligue
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- OFFCANVAS -->
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Planos
+          </a>
+          <ul class="dropdown-menu">
+            <li><button class="dropdown-item" type="button">Promozioni</button></li>
+            <li><button class="dropdown-item" type="button">TIM controle</button></li>
+            <li><button class="dropdown-item" type="button">Famiglia</button></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Internet
+          </a>
+          <ul class="dropdown-menu">
+            <li><button class="dropdown-item" type="button">Adsl</button></li>
+            <li><button class="dropdown-item" type="button">FWA</button></li>
+            <li><button class="dropdown-item" type="button">Internet Fibra</button></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Recarga
+          </a>
+          <ul class="dropdown-menu">
+            <li><button class="dropdown-item" type="button">Ricarica Automatica</button></li>
+            <li><button class="dropdown-item" type="button">TIM Tourist</button></li>
+            <li><button class="dropdown-item" type="button">5G</button></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Serviços
+          </a>
+          <ul class="dropdown-menu">
+            <li><button class="dropdown-item" type="button">Telefonia Fissa e Mobile</button></li>
+            <li><button class="dropdown-item" type="button">Internet Fibra</button></li>
+            <li><button class="dropdown-item" type="button">Intrattenimiento</button></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Atendimiento
+          </a>
+          <ul class="dropdown-menu">
+            <li><button class="dropdown-item" type="button">APP MENU TIM</button></li>
+            <li><button class="dropdown-item" type="button">
+                <div class="CodQR"><img id="QRTim" src="./img/Codigo.png" alt="QRtim" class="CodQR">
+                </div>
+              </button></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- CUERPO -->
+
+  <div class="container-fluid  imgDefondo" style="background-image: url(./img/FondoCuerpo.jpg);">
+    <div class="row">
+      <div class=" col-md-1 "> </div>
+
+      <div class=" col-md-5 textoDePromocion">
+        <img class="jwlogo" src="img/John_wick_logo.png" alt="logo">
+        <h3><span class="linearoja">--</span>+30 Dias Grátis de Filmes e Series</h3>
+        <p class="old-price">De <strong id="viejo">R$160,00</strong> por</p>
+        <p class="new-price"><strong>R$112,00</strong></p>
+        <p class="texto1"><strong>Compre</strong> 150 MEGA <br> E RECEBA <strong> 300 MEGA</strong></strong></p>
+        <p class="textoChi">Desconto de R$112,00 válido por 12 meses</p>
+        <div class=" botonPer-container">
+          <a href="#" class=" border border-0 btn-lg btn-dark botonPer">
+            <span class="texBoton">Assinar agora</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="icono">
+      <img class="iconoFOrm" src="./img/forum_48dp_FILL0_wght400_GRAD0_opsz48.svg" alt="icono">
+    </div>
+  </div>
+
+  <!-- PIE DE PAGINA -->
+
+  <footer class="footer">
+    <div>
+      <a href="#">
+        <p style="font-size: 95%;">Conheça mais sobre os planos da<span class="highlight-strong">Tim live.</span></p>
+      </a>
+    </div>
+    <div>
+      <a href="#">
+        <p style="font-size: 95%;" class="highlight-strong">0800 729 0291</p>
+        <p style="font-size: 87%;">
+          <img src="./img/headset_mic_24dp_FILL0_wght100_GRAD0_opsz24.png" alt=""
+            style="vertical-align: middle; margin-right: 3px;" width="40px">
+          Fale gratis com um vendedor Tim Live
+        </p>
+      </a>
+    </div>
+    <div>
+      <a href="#">
+        <p style="font-size: 95%;" class="highlight-strong">Me ligue</p>
+        <p style="font-size: 87%;">
+          <img src="./img/phone_in_talk_24dp_FILL0_wght100_GRAD0_opsz24.png" alt=""
+            style="vertical-align: middle; margin-right: 3px;" width="40px">
+          Receba nossa ligaçāo em até 1 minuto
+        </p>
+      </a>
+    </div>
+    <div>
+      <a href="#">
+        <p style="font-size: 95%;" class="highlight-strong">Chat Online</p>
+        <p style="font-size: 87%;">
+          <img src="./img/comment_24dp_FILL0_wght100_GRAD0_opsz24.png" alt=""
+            style="vertical-align: middle; margin-right: 2px;" width="40px">
+          Compre diretamente pelo chat online
+        </p>
+      </a>
+    </div>
+    <div>
+
+      <a href="#">
+        <p style="font-size: 95%;" class="highlight-strong">Comprar online</p>
+        <p style="font-size: 87%;">
+          <img src="./img/shopping_cart_24dp_FILL0_wght100_GRAD0_opsz24.png" alt=""
+            style="vertical-align: middle; margin-right: 3px;" width="40px">
+          Assine TIM Live direto pela internet
+        </p>
+      </a>
+    </div>
+  </footer>
+
+  <!-- SCRIP -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
